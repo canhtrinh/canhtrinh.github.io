@@ -34,8 +34,16 @@
 	margin-top: 80px;
 }
 
+.mt-25px {
+  margin-top: 25px;
+}
+
 .mb {
 	margin-bottom: 80px;
+}
+
+.mb-25px {
+  margin-bottom: 25px;
 }
 
 /* ==========================================================================
@@ -55,10 +63,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
-}
-
-h3 {
-  padding-top: 20px;
 }
 
 
@@ -113,7 +117,7 @@ h3 {
 #headerwrap h1 {
 	color:#ffffff;
 	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
@@ -212,6 +216,7 @@ h3 {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+  float: right;
 }
 
 .gallery img:hover {
@@ -237,4 +242,39 @@ h3 {
 /*My picture*/
 .myPic {
   text-align: left;
+}
+
+.projectDescription {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.each-project:hover {
+  background-color: whitesmoke;
+}
+
+.btn-margin {
+  margin: 2px;
+}
+
+#techcontainer ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+#techcontainer ul li { display: inline; }
+
+#techcontainer ul li {
+  text-decoration: none;
+  padding: .1em .3em;
+  color: #fff;
+  background-color: #036;
+  border-radius: 5px;
+  font-size: smaller;
+}
+
+#techcontainer ul li:hover {
+  color: #fff;
+  background-color: #369;
 }
