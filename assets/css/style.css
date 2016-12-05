@@ -96,11 +96,11 @@ h1, h2, h3, h4, h5, h6 {
 #headerwrap {
 	background: url(../img/back.jpg) no-repeat center top;
 	margin-top: 0;
-	padding-top: 250px;
+	padding-top: 350px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 1000px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
