@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/back.jpg) no-repeat center fixed;
 	margin-top: 0;
 	padding-top: 350px;
 	text-align:center;
